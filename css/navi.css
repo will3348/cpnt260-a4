@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  background-color:#252526;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  /* position: sticky; */
+  top: 0;
+  border-bottom: 1px red solid;
+}
+
+.shop-name {
+  font-size: clamp(3em, 5vw, 11em);
+  color: blanchedalmond;
+  padding: 15px 35px 25px;
+}
+
+.navi {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 90px;
+  padding-right: 20px;
+}
+
+.navi-a {
+  color: rgb(197, 91, 118);
+  font-size: clamp(1.3em, 1.5vw, 2em);
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.navi-a:hover {
+  color: beige;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 800px) {
+  .navi {
+    display: block;
+    padding: 15px;
+    background-color: transparent;
+  }
+
+  .navi a {
+    color: #f35107;
+    font-weight: bolder;
+  }
+
+  .shop-name {
+    text-align: center;
+  }
+  
+}
