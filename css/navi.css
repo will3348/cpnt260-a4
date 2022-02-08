@@ -45,7 +45,7 @@ header {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
   .navi {
     display: block;
     padding: 15px;
