@@ -8,7 +8,7 @@ html{
 
 .hero-section {
   border: 1px red solid;
-  width: 90%;
+  width: 95%;
   height:85vh;
   background-image:url(../images/herosection.jpg) ;
   background-size:cover;
@@ -61,11 +61,20 @@ button:hover{
   transform:scale(1.05);
 }
 
+.input-form{
+width: 90%;
+background-color: burlywood;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+padding:25px 0;
+}
+
 .grid{
   display: grid;
   width: 90%;
   grid-template-columns: repeat(auto-fit,minmax(450px, 1fr));
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
   margin: 0 auto;
 }
 
@@ -82,8 +91,6 @@ justify-self: center;
   object-fit: cover;
 }
 
-
-  
 footer {
   text-align: center;
   padding: 15px;
