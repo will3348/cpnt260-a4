@@ -5,7 +5,7 @@
 ## Reflection
 when I linked the icon into my html, only shows a square, not a icon.
 ## How did you approach solving it
-I watched couple youtube vedio. People said I have to put the fontawesome.min.css in the css folder too, not only all.css
+I watched couple youtube vedio. People said I have to put the fontawesome.min.css in the css folder,and web fonts folder in repo too, not only all.css
 ## Flare
 - added hover on CTA in main.css line 58 - line 62.
 - created a layout with more than 1 column of content 
